@@ -14,6 +14,6 @@
 ```
 ```java
 mvn clean compile jib:build
-```java
+```
 
 docker run -it -p 8080:8080 sdannarapu/google-jib-image-example
